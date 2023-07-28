@@ -1,9 +1,24 @@
+
+
+.h1 {
+    margin: 50px;
+}
+body {
+    background-image: url("/images/background.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center 50px;;
+    background-size: 1500px auto;
+}
 .container {
-    width: 480px;
-    height: 480px;
+    width: 460px;
+    height: 460px;
     background-color: #ffff;
-    border: 7px solid black;
+    border: 5px solid black;
     display: grid;
+    margin-top: 528px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .grid {
@@ -11,8 +26,6 @@
     box-sizing: border-box;
     width: 100%;
 }
-
-
 
 
 /*Responsive Grid
