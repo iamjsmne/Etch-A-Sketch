@@ -23,25 +23,28 @@ body {
     box-sizing: border-box;
     width: 100%;
 }
-
+.buttons {
+    text-align: center;
+}
 .btn {
     font-family: 'Borel', cursive;
     background-color: transparent;
     border: none;
     font-size: 20px;
+    font-weight: 1000;
     padding: 30px 20px; 
     border-radius: 50%;
     transition-duration: 0.4s;
 }
-
 .btn:hover {
-    color: red;
+    color: rgb(4, 0, 255);
     font-size: 30px;
     font-weight: 1000;
 }
 
-.color-picker {
+#color-picker-label {
     font-family: 'Borel', cursive;
+    font-size: 20px;
 }
 
 /*Responsive Grid
