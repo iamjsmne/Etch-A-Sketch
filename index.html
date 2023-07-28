@@ -5,18 +5,24 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script src="script.js" defer></script>
         <link href="styles.css" rel="stylesheet"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Borel&family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
         <title>Etch-A-Sketch</title>
     </head>
     <body>
         <div class="container"></div>
         
-        <div id="buttons">
-            <button id="clear" class="btn">Clear</button> //
-            <button id="eraser" class="btn">Eraser</button> //
-            <label id="color-picker-label" for="color-picker">Color Picker</label> //
-            <input type="color" id="color-picker" name="head">
-            <button id="rainbow" class="btn">Rainbow</button>//
-            <button id="size" class="btn">Size</button> //
+        <div class="buttons">
+            <button id="size" class="btn">Size</button>
+            <button id="eraser" class="btn">Eraser</button> 
+            <button id="clear" class="btn">Clear</button>
+            <div class="color-picker">
+                <label id="color-picker-label" for="color-picker">Color Picker</label>
+                <input type="color" id="color-picker" name="head">
+            </div>
+
+            <button id="rainbow" class="btn">Rainbow</button>
         </div>
 
     </body>

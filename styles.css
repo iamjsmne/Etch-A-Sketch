@@ -1,8 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Poppins:wght@100;200;300;400;600;700&display=swap');
 
-
-.h1 {
-    margin: 50px;
-}
 body {
     background-image: url("/images/background.png");
     background-attachment: fixed;
@@ -27,6 +24,25 @@ body {
     width: 100%;
 }
 
+.btn {
+    font-family: 'Borel', cursive;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    padding: 30px 20px; 
+    border-radius: 50%;
+    transition-duration: 0.4s;
+}
+
+.btn:hover {
+    color: red;
+    font-size: 30px;
+    font-weight: 1000;
+}
+
+.color-picker {
+    font-family: 'Borel', cursive;
+}
 
 /*Responsive Grid
 @media screen AND (max-width: 768px) {
