@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Borel&family=Poppins:wght@100;200;300;400;600;700&display=swap');
 
 body {
-    background-image: url("/images/background.png");
+    background-image: url(/images/background.png);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center 50px;;
